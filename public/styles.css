@@ -11225,6 +11225,10 @@ video {
   clear: none;
 }
 
+.font-0 {
+  font-family: Sen;
+}
+
 .font-sans {
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
@@ -31833,6 +31837,53 @@ video {
 
 @import url('https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap');
 
+.button {
+  --tw-bg-opacity: 1;
+  background-color: rgba(209, 213, 219, var(--tw-bg-opacity))
+}
+
+.button:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.button {
+  border-radius: 0.25rem;
+  padding: 0.25rem;
+}
+
+.button:hover {
+  --tw-text-opacity: 1;
+  color: rgba(37, 99, 235, var(--tw-text-opacity));
+}
+
+.button {
+  width: 7rem;
+  --tw-translate-x: 0;
+  --tw-translate-y: 0;
+  --tw-rotate: 0;
+  --tw-skew-x: 0;
+  --tw-skew-y: 0;
+  --tw-scale-x: 1;
+  --tw-scale-y: 1;
+  transform: translateX(var(--tw-translate-x)) translateY(var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.button:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+}
+
+.button {
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+  transition-duration: 75ms;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -42506,6 +42557,10 @@ video {
 
   .sm\:clear-none {
     clear: none;
+  }
+
+  .sm\:font-0 {
+    font-family: Sen;
   }
 
   .sm\:font-sans {
@@ -73619,6 +73674,10 @@ video {
     clear: none;
   }
 
+  .md\:font-0 {
+    font-family: Sen;
+  }
+
   .md\:font-sans {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -104728,6 +104787,10 @@ video {
 
   .lg\:clear-none {
     clear: none;
+  }
+
+  .lg\:font-0 {
+    font-family: Sen;
   }
 
   .lg\:font-sans {
@@ -135841,6 +135904,10 @@ video {
     clear: none;
   }
 
+  .xl\:font-0 {
+    font-family: Sen;
+  }
+
   .xl\:font-sans {
     font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
@@ -166950,6 +167017,10 @@ video {
 
   .\32xl\:clear-none {
     clear: none;
+  }
+
+  .\32xl\:font-0 {
+    font-family: Sen;
   }
 
   .\32xl\:font-sans {
