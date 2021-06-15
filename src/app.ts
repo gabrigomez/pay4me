@@ -1,16 +1,5 @@
-class Invoice {
+import { Invoice } from './classes/Invoice.js'
 
-    constructor(
-        readonly client: string,
-        private details: string,
-        public amount: number
-    ) { }
-
-    format() {
-        return `${this.client} deve ${this.amount} de ${this.details}`
-    }
-
-}
 let invoice1 = new Invoice('Marcelo', 'Danone', 350)
 
 let invoices: Invoice[] = []
