@@ -1,4 +1,19 @@
 "use strict";
+var Invoice = /** @class */ (function () {
+    function Invoice(c, d, a) {
+        this.client = c;
+        this.details = d;
+        this.amount = a;
+    }
+    Invoice.prototype.format = function () {
+        return this.client + " deve " + this.amount + " de " + this.details;
+    };
+    return Invoice;
+}());
+var invoice1 = new Invoice('Marcelo', 'Danone', 350);
+var invoices = [];
+invoices.push(invoice1);
+console.log(invoice1.format());
 var form = document.getElementById('forms');
 var type = document.querySelector('#type');
 var toFrom = document.querySelector('#tofrom');
