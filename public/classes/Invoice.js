@@ -5,6 +5,6 @@ export class Invoice {
         this.amount = amount;
     }
     format() {
-        return `${this.client} deve ${this.amount} de ${this.details}`;
+        return `${this.client} receberá ${this.amount} de ${this.details}`;
     }
 }
