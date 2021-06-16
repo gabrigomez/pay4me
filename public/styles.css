@@ -31884,6 +31884,25 @@ video {
   transition-duration: 75ms;
 }
 
+.h3 {
+  --tw-border-opacity: 1;
+  border-color: rgba(191, 219, 254, var(--tw-border-opacity));
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase
+}
+
+.p {
+  display: flex;
+  justify-content: center
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -187458,3 +187477,4 @@ video {
     --tw-backdrop-sepia: sepia(100%);
   }
 }
+
